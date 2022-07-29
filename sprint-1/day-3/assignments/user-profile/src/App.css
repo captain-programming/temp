@@ -1,0 +1,55 @@
+.App{
+  width: 60%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.profile-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.skillset-img{
+  width: 30px;
+  height: 20px;
+}
+.profile-card{
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+}
+.skillset{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skillset-div{
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid gray;
+  margin: 4px;
+}
+.name-title{
+  line-height: 15px;
+}
+.profile-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.follow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  padding: 0;
+  height: 20px;
+}
+.button{
+  height: 25px;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  padding: 0px 10px;
+}
